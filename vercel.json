@@ -5,6 +5,11 @@
       "use": "@vercel/node"
     }
   ],
+  "functions": {
+    "index.js": {
+      "includeFiles": "config/**"
+    }
+  },
   "routes": [
     {
       "src": "/(.*)",
