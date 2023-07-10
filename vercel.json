@@ -9,7 +9,27 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.js"
+      "dest": "routes/auth.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "routes/customers.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "routes/genres.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "routes/movies.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "routes/rentals.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "routes/users.js"
     }
   ]
 }
